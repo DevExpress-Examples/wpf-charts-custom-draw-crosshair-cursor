@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [MainWindow.xaml](./CS/CrosshairCustomDraw/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/CrosshairCustomDraw/MainWindow.xaml))
+* [MainWindow.xaml.cs](./CS/CrosshairCustomDraw/MainWindow.xaml.cs) (VB: [MainWindow.xaml](./VB/CrosshairCustomDraw/MainWindow.xaml))
+<!-- default file list end -->
 # How to custom draw a crosshair cursor
 
 
