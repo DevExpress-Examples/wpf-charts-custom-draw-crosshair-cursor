@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrosshairCustomDraw", "CrosshairCustomDraw\CrosshairCustomDraw.csproj", "{AC4437FF-8FD1-4DA6-A7D7-EAEB011E6162}"
+# Visual Studio 16
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrosshairCustomDraw", "CrosshairCustomDraw\CrosshairCustomDraw.Net5.csproj", "{AC4437FF-8FD1-4DA6-A7D7-EAEB011E6162}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
