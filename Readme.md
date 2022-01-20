@@ -3,18 +3,32 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E4385)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
+# Charts for WPF - How to Customize Crosshair Cursor Elements
+
+This example shows how to use the [ChartControl.CustomDrawCrosshair](https://docs.devexpress.com/WPF/DevExpress.Xpf.Charts.ChartControl.CustomDrawCrosshair) event to customize the Crosshair Cursor. For example, you can use this event to paint crosshair label items depending on the highlighted point value.
+
+![Chart with the customized crosshair cursor](images/results.png)
+
+Enable the following properties before the crosshair is customized to display crosshair axis lines and labels:
+
+* [CrosshairOptions.ShowArgumentLabels](https://docs.devexpress.com/WPF/DevExpress.Xpf.Charts.CrosshairOptions.ShowArgumentLabels?p=netframework)
+* [CrosshairOptions.ShowArgumentLine](https://docs.devexpress.com/WPF/DevExpress.Xpf.Charts.CrosshairOptions.ShowArgumentLine?p=netframework)
+* [CrosshairOptions.ShowValueLabels](https://docs.devexpress.com/WPF/DevExpress.Xpf.Charts.CrosshairOptions.ShowValueLabels?p=netframework)
+* [CrosshairOptions.ShowValueLine](https://docs.devexpress.com/WPF/DevExpress.Xpf.Charts.CrosshairOptionsBase.ShowValueLine?p=netframework)
+
+
+## Files to Look At
 
 * [MainWindow.xaml](./CS/CrosshairCustomDraw/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/CrosshairCustomDraw/MainWindow.xaml))
 * [MainWindow.xaml.cs](./CS/CrosshairCustomDraw/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/CrosshairCustomDraw/MainWindow.xaml.vb))
-<!-- default file list end -->
-# How to custom draw a crosshair cursor
 
+## Documentation
 
-<p>This example shows how to provide custom appearance of the crosshair cursor using the <a href="http://help.devexpress.com/#WPF/DevExpressXpfChartsChartControl_CustomDrawCrosshairtopic"><u>ChartControl.CustomDrawCrosshair</u></a> <strong> </strong>event. This event is invoked when you click the <strong>Custom Draw Crosshair Cursor</strong> button on the form. </p><p>If you wish to display crosshair axis  lines and labels on a chart before custom drawing the crosshair cursor, set the <a href="http://help.devexpress.com/#WPF/DevExpressXpfChartsCrosshairOptions_ShowArgumentLabelstopic"><u>CrosshairOptions.ShowArgumentLabels</u></a>, <a href="http://help.devexpress.com/#WPF/DevExpressXpfChartsCrosshairOptions_ShowArgumentLinetopic"><u>CrosshairOptions.ShowArgumentLine</u></a>, <a href="http://help.devexpress.com/#WPF/DevExpressXpfChartsCrosshairOptions_ShowValueLabelstopic"><u>CrosshairOptions.ShowValueLabels</u></a> and <a href="http://help.devexpress.com/#WPF/DevExpressXpfChartsCrosshairOptions_ShowValueLinetopic"><u>CrosshairOptions.ShowValueLine</u></a> properties to <strong>true</strong>. </p><p>Note that the customization of the crosshair cursor is provided for the <a href="http://help.devexpress.com/#WPF/DevExpressXpfChartsCrosshairOptions_SnapModetopic"><u>CrosshairOptions.SnapMode</u></a> property set to <strong>NearestArgument</strong>.</p><br />
+* [Crosshair Cursor](https://docs.devexpress.com/WPF/14682/controls-and-libraries/charts-suite/chart-control/tooltip-and-crosshair-cursor/crosshair-cursor?p=netframework)
 
+## More Examples
 
-<br/>
-
-
+* [How to: show the Crosshair Cursor programmatically](https://github.com/DevExpress-Examples/how-to-show-the-crosshair-cursor-programmatically-t466164)
+* [How to format values in a crosshair cursor via a label's patterns](https://github.com/DevExpress-Examples/how-to-format-values-in-a-crosshair-cursor-via-a-labels-patterns-e4478)
+* [How to customize the appearance of crosshair axis labels](https://github.com/DevExpress-Exampleshow-to-customize-the-appearance-of-crosshair-axis-labels-e4074)
+* [How to customize the Crosshair Label appearance](https://github.com/DevExpress-Examples/how-to-customize-the-crosshair-label-appearance-t478135)
