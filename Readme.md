@@ -5,7 +5,7 @@
 <!-- default badges end -->
 # Charts for WPF - How to Customize Crosshair Cursor Elements
 
-This example shows how to use the [ChartControl.CustomDrawCrosshair](https://docs.devexpress.com/WPF/DevExpress.Xpf.Charts.ChartControl.CustomDrawCrosshair) event to customize the Crosshair Cursor. For example, you can use this event to paint crosshair label items depending on the highlighted point value.
+This example shows how to use the [ChartControl.CustomDrawCrosshair](https://docs.devexpress.com/WPF/DevExpress.Xpf.Charts.ChartControl.CustomDrawCrosshair) event to customize the crosshair cursor. For example, you can use this event to paint crosshair label items depending on the highlighted point value.
 
 ![Chart with the customized crosshair cursor](images/results.png)
 
