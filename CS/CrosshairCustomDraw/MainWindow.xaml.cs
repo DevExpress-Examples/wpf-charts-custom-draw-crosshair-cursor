@@ -3,23 +3,16 @@ using System.Windows;
 using DevExpress.Xpf.Charts;
 using System.Windows.Media;
 
-
 namespace CrosshairCustomDraw {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window {
         bool handleCustomDraw;
         public MainWindow() {
             InitializeComponent();
-
         }
-
         private void Button_Click(object sender, RoutedEventArgs e) {
             handleCustomDraw = true;
             chartControl1.CustomDrawCrosshair += chartControl1_CustomDrawCrosshair;
         }
-
         private void chartControl1_CustomDrawCrosshair(object sender, CustomDrawCrosshairEventArgs e) {
 
             if (!handleCustomDraw) return;
@@ -46,8 +39,10 @@ namespace CrosshairCustomDraw {
                 element.AxisLabelElement.Background = Brushes.Red;
 
                 // Specify the foreground and  font size for the crosshair  cursor label that shows series. 
-                element.LabelElement.Foreground = Brushes.Green;
-                element.LabelElement.FontSize = 14;
+                if (element.SeriesPoint.Value > 50) {
+                    element.LabelElement.Foreground = Brushes.Green;
+                    element.LabelElement.FontSize = 14;
+                }
             }
 
             foreach (CrosshairElementGroup group in e.CrosshairElementGroups) {
