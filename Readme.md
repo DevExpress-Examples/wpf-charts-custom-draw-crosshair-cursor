@@ -29,6 +29,6 @@ Enable the following properties before the crosshair is customized to display cr
 ## More Examples
 
 * [How to: show the Crosshair Cursor programmatically](https://github.com/DevExpress-Examples/how-to-show-the-crosshair-cursor-programmatically-t466164)
-* [How to format values in a crosshair cursor via a label's patterns](https://github.com/DevExpress-Examples/how-to-format-values-in-a-crosshair-cursor-via-a-labels-patterns-e4478)
+* [How to format values in a crosshair cursor with label patterns](https://github.com/DevExpress-Examples/how-to-format-values-in-a-crosshair-cursor-via-a-labels-patterns-e4478)
 * [How to customize the appearance of crosshair axis labels](https://github.com/DevExpress-Exampleshow-to-customize-the-appearance-of-crosshair-axis-labels-e4074)
 * [How to customize the Crosshair Label appearance](https://github.com/DevExpress-Examples/how-to-customize-the-crosshair-label-appearance-t478135)
