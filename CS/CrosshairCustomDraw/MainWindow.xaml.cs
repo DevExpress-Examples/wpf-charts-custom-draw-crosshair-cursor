@@ -1,5 +1,6 @@
-﻿using DevExpress.Xpf.Charts;
+﻿
 using System.Windows;
+using DevExpress.Xpf.Charts;
 using System.Windows.Media;
 
 namespace CrosshairCustomDraw {
