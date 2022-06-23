@@ -1,5 +1,5 @@
-Imports System.Windows
 Imports DevExpress.Xpf.Charts
+Imports System.Windows
 Imports System.Windows.Media
 
 Namespace CrosshairCustomDraw
