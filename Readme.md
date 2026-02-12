@@ -34,7 +34,7 @@ Enable the following properties before the crosshair is customized to display cr
 * [How to customize the appearance of crosshair axis labels](https://github.com/DevExpress-Examples/how-to-customize-the-appearance-of-crosshair-axis-labels-e4074)
 * [How to customize Crosshair Label appearance](https://github.com/DevExpress-Examples/how-to-customize-the-crosshair-label-appearance-t478135)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-charts-custom-draw-crosshair-cursor&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-charts-custom-draw-crosshair-cursor&~~~was_helpful=no)
 
